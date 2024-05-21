@@ -1,0 +1,462 @@
+*{
+    margin:0;
+    font-family: sans-serif;
+    color: #dddddd;
+    
+    
+}
+#frontbody{
+    border:0.5rem solid black;
+    background-image: url(../images/frontpage.png);
+    background-size: cover;
+    height: 50rem;
+}
+.frontpage{
+    height:fit-content;
+    
+}
+.subheading{
+    font-size:3.5rem;
+    font-family: times;
+    text-align: center;
+    animation:glow 2s ease-in-out infinite alternate;
+}
+#courseLogoFront{
+    margin-top:0.25rem;
+    height: 6.25rem;
+    width: 6.25rem;
+    border: 0.1rem solid #ffffff;
+    border-radius: 50%;
+    background-image: url(../images/Logo.jpg);
+    background-size: cover;
+}
+#flexbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 25px; */
+    padding-top: 1.5rem;
+}
+#homefront{
+    margin-top:0.25rem;
+}
+
+#navItemsFront{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    
+}
+#brandname{
+    font-size:4rem;
+    font-family:Times;
+    text-shadow:0 0 6px #ff0000,1px 0 0 #ffffff;
+    
+}
+@keyframes glow{
+    from{
+        text-shadow:1px 0 5px #ffffff;
+    }
+    to{
+        text-shadow:0 0 5px #ff0000;
+    }
+}
+
+.headings3{
+    background-color: rgb(23, 7, 7);
+    height:4rem;
+    width:20rem;
+    text-align: center;
+    font-size: 45px;
+    border: 6px solid rgb(105, 61, 61);
+    border-radius: 10px;
+    text-transform: uppercase;
+    animation:glow 1s ease-in-out infinite alternate;
+}
+.header{
+    font-family:Times;
+}
+.border2:hover{
+    opacity:0.75;
+    border: 0.5rem solid whitesmoke;
+    animation:none;
+}
+.border2{
+    margin-bottom:2rem;
+}
+
+body{
+    background-color: black;
+}
+.navbar{
+    height:5rem;
+    background-color: black;
+    color: #dddddd;
+    display:flex;
+    justify-content: space-evenly;
+    border: 5px solid rgba(255, 0, 0, 0.474);
+    background-color:black;
+    margin-bottom: 0px;
+    
+}
+.homepage{
+    height:fit-content;
+    background-image:url(../images/backgroundAboutUs.jpg) ;
+    object-fit: cover;
+    padding-bottom:5rem;
+}
+#homeLink{
+    text-decoration: none;
+}
+.navItems{
+    width:fit-content;
+    height:fit-content;
+    animation:glow 1s ease-in-out infinite alternate;
+}
+
+#courseLogo{
+    height:4.5rem;
+    width:4.5rem;
+    background-image:url("../images/Logo.jpg");
+    background-size:cover;
+    position: absolute;
+   
+    
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 3px solid white;
+}
+.headings{
+    color:#dddddd;
+    background-color:red;
+    font-family: algeria ;
+    text-decoration: none;
+    padding-top: 0.75rem;
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    height: fit-content;
+    text-align: center;
+    padding-bottom: 5px;
+    width: fit-content;
+}
+.headings:hover{
+    background-color: rgba(255,0, 55, 0.5);
+} 
+#welcome{
+    height:fit-content;
+    width:fit-content;
+    border:0.25rem dashed red;
+    border-radius: 1.25rem;
+    padding:0.75rem;
+    margin-top: 0.75rem;
+    font-size: 2.5rem;
+    animation: glow 2s ease-in-out infinite alternate;
+}  
+.welcomebox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}  
+h1{
+    
+    text-align: center;
+}
+h2{
+    font-size: 2rem;
+}
+#more{
+   font-size:1.5rem;
+}  
+.info{
+    text-align: left;
+    margin-left:0.75rem;
+    margin-top: 0.5rem;
+} 
+
+.highlight{
+    color: #dddddd;
+    
+}
+.highlights{
+    text-align: left;
+    font-size: 1.5rem;
+    margin-top: 0.5rem;
+}
+.contact{
+    color:lightblue;
+}
+.para{
+    padding-top:0.5rem;
+    padding-left:0.5rem;
+    font-size: 1.25rem;
+}
+.heading2{
+    font-size: 1.7rem;
+    /* text-decoration:white wavy underline; */
+    line-height:2rem;
+    /* padding-left:5px; */
+}
+.aboutUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.description{
+    border:0.5rem solid rgba(103, 88, 88, 0.832);
+    border-radius: 0.5rem;
+    background-color: rgba(207, 71, 71, 0.511);
+    display: inline-block;
+    justify-content: center;
+    width:fit-content;
+    height:fit-content;
+    margin-bottom:2rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    padding-bottom: 0.5rem;
+}
+.smalldesc{
+    height:fit-content; 
+}
+@keyframes glow3{
+    from{
+        text-shadow:1px 0 4px #d66161;
+    }
+    to{
+        text-shadow:0 0 4px #d40707;
+    }
+}
+.heading2{
+    text-align: center;
+    animation: glow3 2s ease-in-out infinite alternate;
+}
+.aboutUs{
+    margin-top:1rem;
+    display:flex;
+    
+}
+#aboutUsLink{
+    text-decoration: none;
+}
+.aboutUsBox{
+    /* margin-top: 20px; */
+    flex-direction: column;
+    /* border: 0.5rem solid grey; */
+    padding-top:1rem;
+    background-image: url(../images/backgroundAboutUs.jpg);
+    object-fit: cover;
+    height:fit-content;
+    padding-bottom:6rem;
+}
+@keyframes glow2{
+    from{
+        text-shadow:1px 0 4px #cb0b0b;
+    }
+    to{
+        text-shadow:0 0 4px #e85f9d;
+    }
+}
+.aboutUsHeading{
+    text-align: center;
+    border: 0.4rem solid rgb(234, 0, 0);
+    color: #dddddd;
+    background-color: rgba(233, 70, 70, 0.433);
+    width: 20rem;
+    height: 3.5rem;
+    font-size:3rem ;
+    margin-left: 1rem;
+    margin-right:1rem;
+    animation: glow2 2s ease-in-out infinite;
+}
+.headingbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    height: 0.25rem;
+}
+#courselink{
+    text-decoration: none;
+}
+#courselinkfront{
+    text-decoration: none;
+}
+#coursebody{
+    background-image: url(../images/backgroundAboutUs.jpg);
+    height:45rem;
+    
+    background-size: cover;
+}
+.courseheading{
+    /* background-color:black; */
+    height:fit-content;
+    text-shadow: 2px 0 3px #ff0000;
+}
+.courseheader{
+    font-family: Times;
+    font-size: 2.75rem;
+    text-transform: uppercase;
+    padding-top:1rem;
+    padding-bottom: 0.5rem;
+    font-weight: 900;
+    text-decoration: rgb(201, 115, 115)dotted underline;
+}
+.courseflexbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+}    
+.plan{
+    margin-top:1.25rem;
+}
+.flexelmnts{
+    background-color: rgba(200, 48, 64, 0.51);
+    text-transform: capitalize;
+    height: 4.5rem;
+    width: 22rem;
+   margin-bottom: 2rem; 
+   border-radius: 1rem;
+   border: 0.5rem solid black; 
+}
+.flexelmnts:hover{
+    border:0.4rem solid rgb(213, 151, 151);
+    opacity:0.8;
+    background-color: red;
+}
+.plan{
+    font-family: times;
+    font-size: 3rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px #ff0000;
+}
+.courselinks{
+    text-decoration: none;
+}             
+.planbody{
+    background-image:url(../images/backgroundAboutUs.jpg);
+    height:fit-content;
+    background-size: cover;
+}
+.planPara{
+    font-size:1.25rem;
+}
+.planIntro{
+    background-color:rgba(0, 0, 0, 0.236);
+}
+.daywisecourseflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-left:0.75rem;
+    margin-top:1rem;
+}
+.daybtn{
+    background-color: azure;
+    color: black;
+    height:fit-content;
+    width:fit-content;
+    font-size: 1.5rem;
+    text-shadow: 1px 0 3px #5a7ab8;
+}
+.topics{
+    display:flex;
+    gap:1rem;
+}
+.expln{
+    font-size:1.5rem;
+    text-transform: capitalize;
+    font-family: times;
+    padding-right: 0.5rem;
+}
+.explnlist{
+    display: none;
+}
+.anything{
+    display: flex;
+    margin-bottom: 0.5rem;
+    background-color:rgba(232, 120, 120, 0.273);
+    color:black;
+    font-size:1rem;
+    border:0.25rem solid rgb(215, 191, 191);
+    border-radius:0.25rem;
+    flex-direction: column;
+    width: fit-content;
+    
+}
+
+#icons{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    height:1rem;
+}
+.contactIcon{
+    height:10px;
+}
+.days{
+    margin-bottom: 0.6rem;
+}
+.topicname{
+    text-transform: capitalize;
+    font-family: times;
+}
+.buttonflex{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.clickme{
+    background-color: rgb(149, 42, 42);
+    padding: 0.5rem;
+}
+.weekwisecourseflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    margin-left:0.75rem;
+    margin-top:1rem;
+}
+.week{
+    height:45rem;
+}
+.topicname{
+    text-shadow: 1px 0 2px #f58ac5;
+}
+#divbox{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    margin:2rem;
+
+}
+.quotes{
+    font-size:3rem;
+    font-family: times;
+    text-align: center;
+    animation:glow 2s ease-in-out infinite alternate;
+}
+#strategylink{
+    text-decoration: none;
+}
+@media(max-width:889px){
+    #courseLogo{
+        display: none;
+    }
+
+}
